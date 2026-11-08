@@ -1,0 +1,19 @@
+{
+	"format": 1,
+	"id": "com.elliotpost.local-renamer",
+	"name": "Local Renamer",
+	"description": "Rename servers and channels for yourself. Only you see the new names.",
+	"author": "ElliotPost",
+	"version": "1.0.0",
+	"dependencies": {
+		"valenced.api": {
+			"version": ">=1 <2"
+		},
+		"discord": {
+			"version": "*"
+		}
+	},
+	"dist": {
+		"script": "index.js"
+	}
+}
